@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>CApp.h</itemPath>
+      <itemPath>CBasics.h</itemPath>
+      <itemPath>CCartel.h</itemPath>
+      <itemPath>CData.h</itemPath>
+      <itemPath>CEnemy.h</itemPath>
+      <itemPath>CEvent.h</itemPath>
+      <itemPath>CGate.h</itemPath>
+      <itemPath>CImage.h</itemPath>
+      <itemPath>CKeys.h</itemPath>
+      <itemPath>CModel.h</itemPath>
+      <itemPath>CModel2D.h</itemPath>
+      <itemPath>CMovil.h</itemPath>
+      <itemPath>CObj.h</itemPath>
+      <itemPath>CPlayer.h</itemPath>
+      <itemPath>CScenery.h</itemPath>
+      <itemPath>CTimer.h</itemPath>
+      <itemPath>sqlite3.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>CApp.cpp</itemPath>
+      <itemPath>CApp_OnEvent.cpp</itemPath>
+      <itemPath>CCartel.cpp</itemPath>
+      <itemPath>CEnemy.cpp</itemPath>
+      <itemPath>CEvent.cpp</itemPath>
+      <itemPath>CGate.cpp</itemPath>
+      <itemPath>CImage.cpp</itemPath>
+      <itemPath>CModel2D.cpp</itemPath>
+      <itemPath>CMovil.cpp</itemPath>
+      <itemPath>CObj.cpp</itemPath>
+      <itemPath>CPlayer.cpp</itemPath>
+      <itemPath>CScenery.cpp</itemPath>
+      <itemPath>CTimer.cpp</itemPath>
+      <itemPath>sqlite3.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>1</architecture>
+          <incDir>
+            <pElem>C:/lib/SDL2Lib/SDL2-2.0.5/i686-w64-mingw32/include</pElem>
+          </incDir>
+          <commandLine>-static-libgcc -static-libstdc++</commandLine>
+        </cTool>
+        <ccTool>
+          <architecture>1</architecture>
+          <incDir>
+            <pElem>C:/lib/SDL2Lib/SDL2-2.0.5/i686-w64-mingw32/include</pElem>
+          </incDir>
+          <commandLine>-static-libgcc -static-libstdc++</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/segundo_juego</output>
+          <linkerAddLib>
+            <pElem>C:/lib/SDL2Lib/SDL2-2.0.5/i686-w64-mingw32/lib</pElem>
+          </linkerAddLib>
+          <commandLine>-lmingw32 -lSDL2main -lSDL2_image -lSDL2_ttf -lSDL2</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="CApp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CApp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CApp_OnEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CBasics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CCartel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CCartel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CEnemy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CEnemy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CGate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CGate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CImage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CKeys.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CModel2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CModel2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMovil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMovil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CObj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CObj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPlayer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CScenery.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CScenery.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CTimer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sqlite3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sqlite3.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="CApp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CApp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CApp_OnEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CBasics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CCartel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CCartel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CEnemy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CEnemy.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CEvent.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CEvent.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CGate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CGate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CImage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CKeys.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CModel2D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CModel2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CMovil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CMovil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CObj.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CObj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPlayer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CScenery.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CScenery.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CTimer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CTimer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sqlite3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sqlite3.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
